@@ -1,0 +1,9 @@
+layer,id,sku
+source,V-050,BOTTLE-500
+source,V-075,BOTTLE-750
+source,V-900,FRAME-BAG
+catalog,erp-71,BOTTLE-500
+catalog,erp-72,BOTTLE-750
+catalog,erp-10,FRAME-BAG
+storefront,SHOP-18,BOTTLE-500
+storefront,SHOP-52,FRAME-BAG

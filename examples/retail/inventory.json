@@ -1,0 +1,9 @@
+{
+  "data": {
+    "variants": [
+      {"variantId": "erp-71", "title": "骑行水壶", "channel": {"active": true}, "price": {"current": 19.90, "original": "24.90"}},
+      {"variantId": "erp-72", "title": "骑行水壶", "channel": {"active": true}, "price": {"current": "25.90", "original": "29.90"}},
+      {"variantId": "erp-10", "title": "车架包", "channel": {"active": false}, "price": {"current": null, "original": null}}
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "scope": {
+    "location": "虚构服装店",
+    "channel": "网店",
+    "window": "日常销售",
+    "currency": "CNY"
+  },
+  "minor_digits": 2,
+  "layers": {
+    "catalog": {
+      "file": "catalog.csv",
+      "observed_at": "2026-01-15T12:00:00+08:00",
+      "coverage": "complete",
+      "identity": "sku",
+      "price_unit": "major",
+      "fields": {
+        "id": [
+          "商品货号",
+          "颜色",
+          "尺码"
+        ],
+        "name": "商品名",
+        "state": "上架状态",
+        "sale_price_minor": "售价",
+        "list_price_minor": "划线价"
+      },
+      "states": {
+        "启用": "enabled",
+        "停用": "disabled"
+      }
+    },
+    "storefront": {
+      "file": "store.xlsx",
+      "sheet": "在售规格",
+      "header_row": 3,
+      "observed_at": "2026-01-15T12:02:00+08:00",
+      "coverage": "complete",
+      "identity": "sku",
+      "price_unit": "major",
+      "fields": {
+        "id": [
+          "product",
+          "colour",
+          "size"
+        ],
+        "name": "title",
+        "state": "availability",
+        "sale_price_minor": "sale_price",
+        "list_price_minor": "compare_at"
+      },
+      "states": {
+        "in_stock": "available",
+        "sold_out": "unavailable"
+      }
+    }
+  }
+}

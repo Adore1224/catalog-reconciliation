@@ -1,0 +1,36 @@
+{
+  "scope": {
+    "location": "虚构示例店",
+    "channel": "小程序",
+    "window": "午餐菜单",
+    "currency": "CNY"
+  },
+  "snapshots": {
+    "source": {
+      "observed_at": "2026-01-15T12:00:00+08:00",
+      "coverage": "complete",
+      "items": [
+        {"sku": "tea-s", "name": "桂花茶", "state": "available", "ref": "supplier-tea-small"},
+        {"sku": "tea-l", "name": "桂花茶", "state": "available", "ref": "supplier-tea-large"},
+        {"sku": "bun", "name": "奶香小包", "state": "unavailable"}
+      ]
+    },
+    "catalog": {
+      "observed_at": "2026-01-15T12:01:00+08:00",
+      "coverage": "complete",
+      "items": [
+        {"sku": "tea-s", "name": "桂花茶", "state": "enabled", "sale_price_minor": 900, "list_price_minor": 1200},
+        {"sku": "tea-l", "name": "桂花茶", "state": "enabled", "sale_price_minor": 1100, "list_price_minor": 1500},
+        {"sku": "bun", "name": "奶香小包", "state": "disabled"}
+      ]
+    },
+    "storefront": {
+      "observed_at": "2026-01-15T12:02:00+08:00",
+      "coverage": "complete",
+      "items": [
+        {"sku": "tea-s", "name": "桂花茶", "state": "available", "sale_price_minor": 950, "list_price_minor": null},
+        {"sku": "bun", "name": "奶香小包", "state": "available"}
+      ]
+    }
+  }
+}
